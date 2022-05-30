@@ -148,6 +148,7 @@ body{
     margin-top: 20px;
     width: 300px;
     text-align: center;
+    position: relative;
 }
 .card-item img{
     max-width: 100%;
@@ -172,6 +173,23 @@ body{
     background: #3F5D45;
     color: #EAF0ED;
   }
+  .box{
+      font-size: 18px;
+      background-color: #3F5D45;
+      color: #EAF0ED;
+      width: 36px;
+      height: 106px;
+      position: absolute;
+      left: 20px;
+      Writing-mode:vertical-lr;
+      letter-spacing: 3px;
+      line-height:36px;
+  }
+  .love{
+    position: absolute;
+    right: 22px;
+    top:19px;
+}
 
 /* .box{
     height: 65px;
